@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="product">
+            <div class="product__left">
+                <div class="product__images">
+                    <img src="./img/product-first.jpg" alt="product main image">
+                    <div class="product__set">
+                        <img class="image-active" src="./img/product-first.jpg" alt="product image">
+                        <img src="./img/product-second.jpg" alt="product image">
+                        <img src="./img/product-third.jpg" alt="product image">
+                        <img src="./img/product-fourth.jpg" alt="product image">
+                        <img src="./img/product-fiveth.jpg" alt="product image">
+                        <img src="./img/product-sixth.jpg" alt="product image">
+                    </div>
+                </div>
+                <div class="product__order">
+                    <h3>
+                        Регион доставки: 
+                        <select>
+                            <option>Краснадар</option>
+                            <option>Москва</option>
+                            <option>Ростов-на-Дону</option>
+                        </select>
+                    </h3>
+                    <div class="order-table">
+                        <table>
+                            <tr>
+                                <td>Пункты самовывоза</td>
+                                <td>2 дня</td>
+                                <td>165 Р</td>
+                            </tr>
+                            <tr>
+                                <td>Курьером</td>
+                                <td>2 дня</td>
+                                <td>305 Р</td>
+                            </tr>
+                            <tr>
+                                <td>Почта России</td>
+                                <td>5-14 дней</td>
+                                <td>250 Р</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="order-info">
+                        <div class="order-info__block">
+                            <img src="./img/order-info-first.png" alt="order info">
+                            <p>
+                                Оплата после проверки
+                            </p>
+                        </div>
+                        <div class="order-info__block">
+                            <img src="./img/order-info-second.png" alt="order info">
+                            <p>
+                                14 дней на возврат
+                            </p>
+                        </div>
+                    </div>
+                    <div class="order-feedback">
+                        <p>
+                            Есть вопросы? Звоните
+                        </p>
+
+                        <div class="phone">
+                            <span>8 (495) 105-98-18</span>
+                            <a href="tel:+74951059818">
+                                <img src="./img/feedback.png" alt="feedback icon">
+                                Заказать обратный звонок
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="product__right">
+                <div class="product__info">
+                    <div class="price">
+                        <div class="price__info">
+                            <span class="price__old">3 700 Р</span>
+                            <h2 class="price__new">2 290 Р</h2>
+                            <p class="price__saving">
+                                <span>1 100 Р</span>
+                                экономии
+                            </p>
+                        </div>
+                        <div class="price__special">
+                            <span>-23%</span>
+                            <img src="./img/special.png" alt="special price">
+                        </div>
+                    </div>
+                    <div class="info">
+                        <p>Код товара: <button>15112</button></p>
+                        <p>
+                            <svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18" width="18" height="18">
+                                <title>Цена</title>
+                                <style>
+                                    tspan { white-space:pre }
+                                    .shp0 { fill: #7ac00c } 
+                                </style>
+                                <g id="Цена">
+                                    <path id="Forma 1" class="shp0" d="M16.79 4.5L14.7 3.29L13.5 1.21L11.09 1.21L9 0L6.91 1.21L4.5 1.21L3.29 3.29L1.21 4.5L1.21 6.91L0 9L1.21 11.09L1.21 13.5L3.29 14.7L4.5 16.79L6.91 16.79L9 18L11.09 16.79L13.5 16.79L14.7 14.7L16.79 13.5L16.79 11.09L18 9L16.79 6.91L16.79 4.5L16.79 4.5ZM8.19 12.68C8.02 12.85 7.8 12.93 7.58 12.93C7.36 12.93 7.14 12.85 6.97 12.68L4.34 10.05C4.01 9.72 4.01 9.19 4.34 8.86L5.03 8.16C5.36 7.83 5.9 7.83 6.23 8.16L7.58 9.51L11.77 5.32C12.1 4.99 12.63 4.99 12.96 5.32L13.66 6.01C13.99 6.34 13.99 6.88 13.66 7.21L8.19 12.68Z" />
+                                </g>
+                            </svg>
+                            На складе много
+                        </p>
+                        <p>
+                            Нашли дешевле?
+                            <span>Снизим цену!</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="product__size">
+                    <h5>Выберите размер</h5>
+                    <div class="size">
+                        <div class="size__choose">
+                            <ul>
+                                <li class="size-active">S</li>
+                                <li>M</li>
+                                <li>L</li>
+                                <li class="size-disabled">XL</li>
+                                <li class="size-disabled">XXL</li>
+                            </ul>
+                        </div>
+                        <div class="size__optimize">
+                            <img src="./img/size.png" alt="optimize size">
+                            <a href="#">
+                                Подобрать оптимальный размер
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product__finally">
+                    <div class="quantity">
+                        <button class="minus">-</button>
+                        <span>1</span>
+                        <button class="plus">+</button>
+                    </div>
+                    <button class="to-basket">
+                        <svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 23" width="20" height="23">
+                            <title>В корзину</title>
+                            <style>
+                                tspan { white-space:pre }
+                                .shp0 { fill: #ffffff } 
+                            </style>
+                            <g id="В корзину">
+                                <path id="Forma 1 копия 10" fill-rule="evenodd" class="shp0" d="M0.61 19C0.44 19 0.27 18.93 0.16 18.8C0.04 18.68 -0.01 18.52 0 18.35L1 6C1.03 5.69 1.69 5 2 5L5 5L5 3C5 1.03 6.49 0 8.5 0C10.51 0 12 1.03 12 3L12 5L15 5C15.31 5 15.97 5.69 16 6L16.49 12.02C16.33 12.01 16.16 12 16 12C12.13 12 9 15.13 9 19L0.61 19ZM6 5L11 5L11 3C11 1.69 9.84 1.19 8.5 1.19C7.16 1.19 6 1.69 6 3L6 5ZM5 7L6 7L6 5L5 5L5 7ZM11 7L12 7L12 5L11 5L11 7ZM15 15L17 15L17 18L20 18L20 20L17 20L17 23L15 23L15 20L12 20L12 18L15 18L15 15Z" />
+                            </g>
+                        </svg>
+                        В корзину
+                    </button>
+                </div>
+                <div class="product__quickly">
+                    <div class="quickly-info">
+                        <h6>Быстрый заказ</h6>
+                        <p>
+                            Вы можете на заполнять никаких форм, просто оставьте свой телефон и наш менеджер свяжется с вами
+                        </p>
+                    </div>
+                    <form class="quickly-input">
+                        <input type="tel" value="+7(___)___-__-__">
+                        <button type="submit">Заказать в один клик</button>
+                    </form>
+                </div>
+                <div class="product__descr">
+                    <div class="descr-tabs">
+                        <div class="descr-title">Описание</div>
+                        <div class="descr-title descr-title-active">Характеристики</div>
+                    </div>
+                    <div class="descr-content">
+                        <p>
+                            Помните веселого персонажа из мультфильма про кунг-фу? Энергичн, немного глуповатый и малость невезучий, По даказал каждому, что его возможности безграничны. Пожалуй, эта панда - настоящий символ настойчивости и упорства. Мы предлагаем вам облачиться в нежную черно-белую шерстку, которая так и просит "обними меня".
+                        </p>
+
+                        <p>
+                            Костюм мастера кунг-фу изготовлен из велсофта. Это позволяет коже дышать и не потеть, даже если вам предстоит веселить своих друзей весь день. Пижама застегивается на пуговички и плотно прилегает к рукам и ногам в области манжетов. Голову приерывает яркая мордочка с ушками, которая завершает образ.
+                        </p>
+
+                        <p>
+                            Панды - ленивые создания, но очень притягательные. Вам будет сложно отказать в объятиях. Почему бы не воспользоваться этой особенностью с пользой для себя? В таком костюме не важно, где именно будет ваша вечеринка. Главное то, что никто на ней вас точно не забудет.
+                        </p>
+                    </div>
+                    <div class="descr-content descr-content-active">
+                        <table>
+                            <tr>
+                                <td>Материал</td>
+                                <td>Велсофт</td>
+                            </tr>
+                            <tr>
+                                <td>Цвет</td>
+                                <td class="color">
+                                    <div class="white"></div>
+                                    <div class="red"></div>
+                                    <div class="black"></div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Для кого</td>
+                                <td>Унисекс</td>
+                            </tr>
+                            <tr>
+                                <td>Тапочки в комплекте</td>
+                                <td>Нет</td>
+                            </tr>
+                            <tr>
+                                <td>Уход</td>
+                                <td>Деликатная стирка</td>
+                            </tr>
+                            <tr>
+                                <td>Молния на попе</td>
+                                <td>Есть</td>
+                            </tr>
+                            <tr>
+                                <td>Хвост</td>
+                                <td>Есть</td>
+                            </tr>
+                            <tr>
+                                <td>Тип застежки</td>
+                                <td>Пуговицы</td>
+                            </tr>
+                            <tr>
+                                <td>Карманы</td>
+                                <td>Нет</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
